@@ -1,13 +1,14 @@
 package ru.springboot.bootstrap.configs;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.env.Environment;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import ru.springboot.bootstrap.model.Role;
 import ru.springboot.bootstrap.model.User;
 import ru.springboot.bootstrap.service.RoleService;
+import ru.springboot.bootstrap.service.RoleServiceImpl;
 import ru.springboot.bootstrap.service.UserService;
+import ru.springboot.bootstrap.service.UserServiceImpl;
 
 import javax.annotation.PostConstruct;
 import java.util.Arrays;
